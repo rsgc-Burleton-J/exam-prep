@@ -16,6 +16,7 @@ var userInput2 = 0
 var userInput3 = 0
 
 repeat {
+    print ("Fuck you matt")
     if let input1 = readLine(stripNewline: true){
         if let inputAsInterger = Int(input1) {
             if (inputAsInterger > 0 && inputAsInterger < 178) {
@@ -26,9 +27,7 @@ repeat {
             }
         }
     }
-} while userInput == 0
-
-repeat {
+    
     if let input2 = readLine(stripNewline: true){
         if let inputAsInterger = Int(input2) {
             if (inputAsInterger > 0 && inputAsInterger < 178) {
@@ -39,4 +38,7 @@ repeat {
             }
         }
     }
-} while userInput2 == 0
+} while userInput == 0
+
+
+    
